@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>EM! your site</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- default skin color -->
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <!-- link color switcher -->
+  <link rel="stylesheet" class="alternate-style" title="color-1" href="css/skins/color-1.css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="header active">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="logo">
+          <a class="link-item" href="#home">EM</a>
+        </div>
+
+        <!-- social links start -->
+        <div class="social-links row justify-content-between">
+          <a target="_blank" href="https://www.facebook.com/edgardo.moreno.549" class=""><i
+              class="fab fa-facebook-f"></i></a>
+          <a target="_blank" href="https://twitter.com/edgardocond" class=""><i class="fab fa-twitter"></i></a>
+          <a target="_blank" href="https://www.instagram.com/eaml45/" class=""><i class="fab fa-instagram"></i></a>
+          <a href="#" class=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <!-- social links end -->
+
+        <!-- navigation menu start -->
+        <nav class="nav-menu outer-shadow">
+          <div class="nav-menu-inner">
+            <ul class="column gap-20">
+              <li><a href="#home" class="link-item inner-shadow active">Inicio</a></li>
+              <!-- <li><a href="#about" class="link-item outer-shadow hover-in-shadow">Blog</a></li> -->
+              <!-- <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Servicios</a></li> -->
+              <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portafolio</a></li>
+              <!-- <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">Testimonios</a></li> -->
+              <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contanto</a></li>
+            </ul>
+          </div>
+          <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+          <!-- <p class="copyright-text">&copy; 2021 Edgardo Moreno</p> -->
+        </nav>
+        <!-- navigation menu end -->
+
+        <div class="hamburger-btn row align-items-center justify-content-center">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- home section start -->
+  <section class="home-section section active" id="home">
+    <div class="container">
+      <div class="row gap-20">
+        <div class="home-text">
+          <p>
+            <span class="home-hello"><span>Hi</span> there!</span><br>
+            Welcome to my page,<br>
+            will found most about me<br>
+            and what i working on.
+          </p>
+          <p>
+            Hope you enjoy the view,<br>
+            let's start.
+          </p>
+          <h2>Edgardo Moreno</h2>
+          <h1>full stack developer</h1>
+          <span class="home-portfolio-btn"><a class=" btn-1 outer-shadow hover-in-shadow link-item"
+              href="#portfolio">Portafolio</a></span>
+        </div>
+        <div class="home-content">
+          <div class="contact-card">
+            <div class="contact-card-inner outer-shadow">
+              <span>¿ideas que quieras desarrollar hoy?</span>
+              <p>
+                - Buscando miembros que aporten a tu proyecto?<br><br>
+                - Te gusta resolver problemas en equipo?<br><br>
+                - Interesado en un mentor?<br><br>
+                - Interesado en aportar en alguno de mis proyectos?
+              </p>
+              <a target="_blank" href="https://twitter.com/messages/compose?recipient_id=184642178"
+                class="link-item btn-1 outer-shadow hover-in-shadow">Click aqui para ponernos en marcha! <br>
+                <i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-card-inner outer-shadow">
+              <span>open source</span>
+              <p>
+                Actualmente trabajando en proyectos personales.
+                desarrollando cada día mis habilidades y
+                aprendiendo nuevas tecnologias.
+              </p>
+              <a href="#portfolio" class="link-item btn-1 outer-shadow hover-in-shadow">Trabajando en...</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- home section end -->
+
+  <!-- portfolio section start -->
+  <section class="portfolio-section section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <!-- portfolio section title -->
+        <div class="section-title">
+          <h2 data-heading="portafolio">Ultimos Trabajos</h2>
+        </div>
+      </div>
+      <!-- portfolio filter start -->
+      <div class="row">
+        <div class="row align-items-center justify-content-center gap-10 portfolio-filter">
+          <span class="filter-item outer-shadow active" data-target="todos">Todos</span>
+          <span class="filter-item outer-shadow" data-target="aplicacion-web">Aplicaciones Web</span>
+          <span class="filter-item outer-shadow" data-target="photoshop">Photoshop</span>
+          <span class="filter-item outer-shadow" data-target="aplicacion-movil">Aplicaciones Móviles</span>
+          <span class="filter-item outer-shadow" data-target="tienda-online">Tiendas Online</span>
+        </div>
+      </div>
+      <!-- portfolio filter end -->
+      <!-- portfolio items start -->
+      <div class="row portfolio-items gap-20">
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="aplicacion-web">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-1.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-1/1.png,img/portfolio/large/project-1/2.png,img/portfolio/large/project-1/3.png,img/portfolio/large/project-1/4.png,img/portfolio/large/project-1/5.png,img/portfolio/large/project-1/6.png">
+              <!-- view project btn -->
+            </div>
+            <p class="portfolio-item-title">Portafolio Personal</p>
+            <span class="view-project btn-1 outer-shadow hover-in-shadow">Ver Proyecto</span>
+            <!-- portfolio item details start -->
+            <div class="portfolio-item-details">
+              <div class="row gap-20">
+                <div class="description">
+                  <h3>Resumen del Proyecto:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus
+                    perferendis ipsa mollitia
+                    debitis obcaecati soluta laborum tempore molestiae id nobis, earum porro minima
+                    perspiciatis
+                    asperiores sint iusto. Hic, consequatur?</p>
+                </div>
+                <div class="info">
+                  <h3>Informacion del Proyecto</h3>
+                  <ul>
+                    <li>Fecha - <span>2020</span></li>
+                    <li>Cliente - <span>xyz</span></li>
+                    <li>Herramientas - <span>html, css, javascript</span></li>
+                    <li>Da un Vistazo - <span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details end -->
+          </div>
+        </div>
+        <!-- portfolio item end -->
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="aplicacion-web">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-2.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-2/1.png,img/portfolio/large/project-2/2.png">
+              <!-- view project btn -->
+            </div>
+            <p class="portfolio-item-title">Pareja de Boda</p>
+            <span class="view-project btn-1 outer-shadow hover-in-shadow">Ver Proyecto</span>
+            <!-- portfolio item details start -->
+            <div class="portfolio-item-details">
+              <div class="row gap-20">
+                <div class="description">
+                  <h3>Resumen del Proyecto:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus
+                    perferendis ipsa mollitia
+                    debitis obcaecati soluta laborum tempore molestiae id nobis, earum porro minima
+                    perspiciatis
+                    asperiores sint iusto. Hic, consequatur?</p>
+                </div>
+                <div class="info">
+                  <h3>Informacion del Proyecto</h3>
+                  <ul>
+                    <li>Fecha - <span>2020</span></li>
+                    <li>Cliente - <span>xyz</span></li>
+                    <li>Herramientas - <span>html, css, jquery</span></li>
+                    <li>Da un Vistazo - <span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details end -->
+          </div>
+        </div>
+        <!-- portfolio item end -->
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="tienda-online">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-3.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-3/1.png,img/portfolio/large/project-3/2.png,img/portfolio/large/project-3/3.png,img/portfolio/large/project-3/4.png,img/portfolio/large/project-3/5.png">
+              <!-- view project btn -->
+            </div>
+            <p class="portfolio-item-title">pagina oficial del producto</p>
+            <span class="view-project btn-1 outer-shadow hover-in-shadow">Ver Proyecto</span>
+            <!-- portfolio item details start -->
+            <div class="portfolio-item-details">
+              <div class="row gap-20">
+                <div class="description">
+                  <h3>Resumen del Proyecto:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus
+                    perferendis ipsa mollitia
+                    debitis obcaecati soluta laborum tempore molestiae id nobis, earum porro minima
+                    perspiciatis
+                    asperiores sint iusto. Hic, consequatur?</p>
+                </div>
+                <div class="info">
+                  <h3>Informacion del Proyecto</h3>
+                  <ul>
+                    <li>Fecha - <span>2020</span></li>
+                    <li>Cliente - <span>xyz</span></li>
+                    <li>Herramientas - <span>html, css, bootstrap-4</span></li>
+                    <li>Da un Vistazo - <span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details end -->
+          </div>
+        </div>
+        <!-- portfolio item end -->
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="aplicacion-web">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-4.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-4/1.png">
+              <!-- view project btn -->
+            </div>
+            <p class="portfolio-item-title">portafolio personal</p>
+            <span class="view-project btn-1 outer-shadow hover-in-shadow">Ver Proyecto</span>
+            <!-- portfolio item details start -->
+            <div class="portfolio-item-details">
+              <div class="row gap-20">
+                <div class="description">
+                  <h3>Resumen del Proyecto:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus
+                    perferendis ipsa mollitia
+                    debitis obcaecati soluta laborum tempore molestiae id nobis, earum porro minima
+                    perspiciatis
+                    asperiores sint iusto. Hic, consequatur?</p>
+                </div>
+                <div class="info">
+                  <h3>Informacion del Proyecto</h3>
+                  <ul>
+                    <li>Fecha - <span>2020</span></li>
+                    <li>Cliente - <span>xyz</span></li>
+                    <li>Herramientas - <span>html, css, jquery</span></li>
+                    <li>Da un Vistazo - <span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details end -->
+          </div>
+        </div>
+        <!-- portfolio item end -->
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="aplicacion-web">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-5.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-5/1.png">
+              <!-- view project btn -->
+            </div>
+            <p class="portfolio-item-title">aptitud física y gimnasio</p>
+            <span class="view-project btn-1 outer-shadow hover-in-shadow">Ver Proyecto</span>
+            <!-- portfolio item details start -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>Resumen del Proyecto:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus
+                    perferendis ipsa mollitia
+                    debitis obcaecati soluta laborum tempore molestiae id nobis, earum porro minima
+                    perspiciatis
+                    asperiores sint iusto. Hic, consequatur?</p>
+                </div>
+                <div class="info">
+                  <h3>Informacion del Proyecto</h3>
+                  <ul>
+                    <li>Fecha - <span>2020</span></li>
+                    <li>Cliente - <span>xyz</span></li>
+                    <li>Herramientas - <span>html, css, jquery</span></li>
+                    <li>Da un Vistazo - <span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details end -->
+          </div>
+        </div>
+        <!-- portfolio item end -->
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="aplicacion-web">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-6.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-6/1.png,img/portfolio/large/project-6/2.png,img/portfolio/large/project-6/3.png">
+              <!-- view project btn -->
+            </div>
+            <p class="portfolio-item-title">aplicacion para prueba rapida</p>
+            <span class="view-project btn-1 outer-shadow hover-in-shadow">Ver Proyecto</span>
+            <!-- portfolio item details start -->
+            <div class="portfolio-item-details">
+              <div class="row gap-20">
+                <div class="description">
+                  <h3>Resumen del Proyecto:</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus
+                    perferendis ipsa mollitia
+                    debitis obcaecati soluta laborum tempore molestiae id nobis, earum porro minima
+                    perspiciatis
+                    asperiores sint iusto. Hic, consequatur?</p>
+                </div>
+                <div class="info">
+                  <h3>Informacion del Proyecto</h3>
+                  <ul>
+                    <li>Fecha - <span>2020</span></li>
+                    <li>Cliente - <span>xyz</span></li>
+                    <li>Herramientas - <span>html, css, javascript</span></li>
+                    <li>Da un Vistazo - <span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details end -->
+          </div>
+        </div>
+        <!-- portfolio item end -->
+      </div>
+      <!-- portfolio items end -->
+    </div>
+  </section>
+  <!-- portfolio section end -->
+
+  <!-- contact section start -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="contacto">Entrar en Contacto</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- contact item start -->
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <!-- <i class="fas fa-phone"></i> -->
+            <i class="fab fa-twitter"></i>
+            <span>Direct</span>
+            <p>@edgardocond</p>
+          </div>
+        </div>
+        <!-- contact item end -->
+        <!-- contact item start -->
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+            <p>edgardo4515@gmail.com</p>
+          </div>
+        </div>
+        <!-- contact item end -->
+        <!-- contact item start -->
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Address</span>
+            <p>Edo Bolivar - Venezuela</p>
+          </div>
+        </div>
+        <!-- contact item end -->
+      </div>
+      <!-- <div class="row">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Name" class="input-control">
+                </div>
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Email" class="input-control">
+                </div>
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Subject" class="input-control">
+                </div>
+              </div>
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <textarea class="input-control" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="submit-btn">
+                <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div> -->
+    </div>
+  </section>
+  <!-- contact section end -->
+
+  <!-- portfolio popup start -->
+  <div class="pp portfolio-popup">
+    <div class="pp-details">
+      <div class="pp-details-inner">
+        <div class="pp-title">
+          <h2></h2>
+          <p>categoria - <span class="pp-project-category"></span></p>
+        </div>
+        <div class="pp-project-details">
+        </div>
+      </div>
+    </div>
+    <div class="separator">
+    </div>
+    <div class="pp-main">
+      <div class="pp-main-inner">
+        <div class="pp-project-details-btn outer-shadow hover-in-shadow"><i class="fas fa-plus"></i> Detalles del
+          Proyecto</div>
+        <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+        <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
+        <div class="pp-counter"></div>
+      </div>
+      <div class="pp-loader">
+        <div></div>
+      </div>
+      <!-- pp navigation -->
+      <div class="pp-prev"><i class="fas fa-play"></i></div>
+      <div class="pp-next"><i class="fas fa-play"></i></div>
+    </div>
+  </div>
+  <!-- portfolio popup end -->
+
+
+
+
+  <!-- main js -->
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
