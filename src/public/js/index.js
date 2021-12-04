@@ -42,7 +42,7 @@
                 document.querySelector(hash).classList.add('active');
                 document.querySelector(hash).classList.remove('hide');
                 // deactivate existing active navigation menu 'link-item'
-                navMenu.querySelector('.active').classList.add('outer-shadow', 'hover-in-shadow');
+                navMenu.querySelector('.active').classList.add('outer-shadow');
                 navMenu.querySelector('.active').classList.remove('active', 'inner-shadow');
 
                 /* if clicked 'link-item' is contained withing the navigation menu */
@@ -99,7 +99,7 @@ function bodyScrollingToggle (){
             event.target.classList.add('active');
             const target = event.target.getAttribute('data-target');
             portfolioItems.forEach(item => {
-                if(item.getAttribute('data-category') === target || target === 'todos') {
+                if(item.getAttribute('data-category') === target || target === 'all') {
                     item.classList.remove('hide');
                     item.classList.add('show');
                 } else {

@@ -387,6 +387,10 @@ img {
     margin-top: 10px;
 }
 
+.home-portfolio-btn a {
+    font-size: var(--font-size-big);
+}
+
 
 /* ++portfolio section */
 
@@ -397,12 +401,19 @@ img {
     text-align: center;
     color: var(--text-black-700);
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .portfolio-card-inner p,
 .contact-card-inner p {
     font-size: 14px;
     color: var(--text-black-600);
+    margin-bottom: 10px;
+}
+
+.contact-card-inner p a {
+    text-decoration: underline;
+    color: var(--skin-color);
 }
 
 .portfolio-card-inner a,
@@ -490,8 +501,8 @@ img {
 }
 
 .portfolio-item-title {
-    font-size: var(--font-size-big);
-    margin: 10px 0 0;
+    font-size: var(--font-size-med);
+    margin: 15px 0;
     color: var(--text-black-600);
     text-transform: capitalize;
     text-align: center;
