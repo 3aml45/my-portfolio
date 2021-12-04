@@ -34,7 +34,7 @@
                 // prevent default anchor click behavior
                 event.preventDefault();
                 const hash = event.target.hash;
-                console.log(hash)
+                // console.log(hash)
                 // deactivate existing active section
                 document.querySelector('.section.active').classList.add('hide');
                 document.querySelector('.section.active').classList.remove('active');
@@ -97,7 +97,7 @@ function bodyScrollingToggle (){
             filterContainer.querySelector('.active').classList.remove('active');
             // activate new 'filter-item'
             event.target.classList.add('active');
-            const target = event.target.getAttribute('data-target');
+            const target = event.target.getAttribute('data-target'); //web-app
             portfolioItems.forEach(item => {
                 if(item.getAttribute('data-category') === target || target === 'all') {
                     item.classList.remove('hide');
@@ -113,7 +113,7 @@ function bodyScrollingToggle (){
     portfolioItemsContainer.addEventListener('click', (event)=> {
         if(event.target.closest('.portfolio-item-inner')){
             const portfolioItem = event.target.closest('.portfolio-item-inner').parentElement;
-            console.log(portfolioItem)
+            // console.log(portfolioItem)
             
             // get the portfolio index
             itemIndex = Array.from(portfolioItem.parentElement.children).indexOf(portfolioItem);
@@ -166,10 +166,10 @@ function bodyScrollingToggle (){
 
     // next slide
     nextBtn.addEventListener('click', ()=> {
-        console.log(slideIndex);
+        // console.log(slideIndex);
         if(slideIndex === screenshots.length - 1){
             slideIndex = 0;
-            console.log(slideIndex);
+            // console.log(slideIndex);
         } else {
             slideIndex ++;
         }
